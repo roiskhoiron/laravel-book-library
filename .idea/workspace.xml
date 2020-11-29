@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bf4cd579-527b-49f1-a129-8cb72f3bec50" name="Default Changelist" comment="pembuatan views part 1">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Z.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/laravel-hello-world.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/books/index.blade.php" afterDir="false" />
+    <list default="true" id="bf4cd579-527b-49f1-a129-8cb72f3bec50" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/views/books/add.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/BookController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/BookController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/books/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/books/index.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,8 +176,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606579701954</updated>
-      <workItem from="1606579710129" duration="9467000" />
+      <workItem from="1606579710129" duration="14059000" />
     </task>
+    <task id="LOCAL-00001" summary="pembuatan views part 1">
+      <created>1606627931853</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1606627931853</updated>
+    </task>
+    <task id="LOCAL-00002" summary="laravel package added to git repo">
+      <created>1606628514055</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1606628514055</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,7 +200,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="pembuatan views part 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="pembuatan views part 1" />
+    <MESSAGE value="laravel package added to git repo" />
+    <option name="LAST_COMMIT_MESSAGE" value="laravel package added to git repo" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="58" key="#Composer" timestamp="1606603134710">
@@ -200,6 +212,10 @@
       <screen x="0" y="30" width="1366" height="738" />
     </state>
     <state x="137" y="55" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.30.1366.738@0.30.1366.738" timestamp="1606605995216" />
+    <state x="774" y="239" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1606630812812">
+      <screen x="0" y="30" width="1366" height="738" />
+    </state>
+    <state x="774" y="239" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.30.1366.738@0.30.1366.738" timestamp="1606630812812" />
     <state x="488" y="85" key="#com.intellij.ide.util.MemberChooser" timestamp="1606606010369">
       <screen x="0" y="30" width="1366" height="738" />
     </state>
@@ -208,18 +224,26 @@
       <screen x="0" y="30" width="1366" height="738" />
     </state>
     <state x="184" y="30" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.30.1366.738@0.30.1366.738" timestamp="1606626180388" />
-    <state x="308" y="30" key="CommitChangelistDialog2" timestamp="1606627930905">
+    <state x="308" y="30" key="CommitChangelistDialog2" timestamp="1606628470533">
       <screen x="0" y="30" width="1366" height="738" />
     </state>
-    <state x="308" y="30" key="CommitChangelistDialog2/0.30.1366.738@0.30.1366.738" timestamp="1606627930905" />
-    <state x="859" y="326" key="NewPhpFileDialog" timestamp="1606627291625">
+    <state x="308" y="30" key="CommitChangelistDialog2/0.30.1366.738@0.30.1366.738" timestamp="1606628470533" />
+    <state x="879" y="296" key="Github.ShareDialog" timestamp="1606631159559">
       <screen x="0" y="30" width="1366" height="738" />
     </state>
-    <state x="859" y="326" key="NewPhpFileDialog/0.30.1366.738@0.30.1366.738" timestamp="1606627291625" />
+    <state x="879" y="296" key="Github.ShareDialog/0.30.1366.738@0.30.1366.738" timestamp="1606631159559" />
+    <state x="859" y="326" key="NewPhpFileDialog" timestamp="1606640303668">
+      <screen x="0" y="30" width="1366" height="738" />
+    </state>
+    <state x="859" y="326" key="NewPhpFileDialog/0.30.1366.738@0.30.1366.738" timestamp="1606640303668" />
     <state x="187" y="48" width="998" height="708" key="SettingsEditor" timestamp="1606627901293">
       <screen x="0" y="30" width="1366" height="738" />
     </state>
     <state x="187" y="48" width="998" height="708" key="SettingsEditor/0.30.1366.738@0.30.1366.738" timestamp="1606627901293" />
+    <state x="550" y="136" key="Vcs.Push.Dialog.v2" timestamp="1606630797007">
+      <screen x="0" y="30" width="1366" height="738" />
+    </state>
+    <state x="550" y="136" key="Vcs.Push.Dialog.v2/0.30.1366.738@0.30.1366.738" timestamp="1606630797007" />
     <state x="378" y="223" key="com.intellij.ide.util.TipDialog" timestamp="1606579882103">
       <screen x="0" y="30" width="1366" height="738" />
     </state>
